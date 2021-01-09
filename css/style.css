@@ -1,0 +1,298 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+    font-family: sans-serif;
+/*    background-image:url(bg.jpeg);    color : white;*/
+/*    background-size: 100%;*/
+    background: black;
+}
+
+.ic{
+    width : 100%;
+    height : 63.5vh;
+    overflow: hidden;
+    border-bottom : 1.5vh solid #222222;
+}
+
+.ii{
+    width : 180%;
+    height : 63.5vh;
+    overflow: hidden;
+}
+
+.logo{
+    position: absolute;
+    top : 0;
+    width : 30%;
+    color : #e40813;
+/*    background: red;*/
+    margin: 4%;
+    font-size: 25px;
+}
+.p1c{
+    width : 99%;
+    margin-top: -5vh;
+    color : white;
+    position: absolute;
+    font-size: 18.5px;
+}
+.p2c{
+    width : 99%;
+    margin-top: -40vh;
+    color : white;
+}
+.p3c{
+    width : 99%;
+    margin-top: -2vh;
+    color : white;
+    font-size: 18.5px;
+}
+
+.nb{
+    background: #e40813;
+    color : white;
+    font-size: 20px;
+    padding: 1vh;
+    border : 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 2px;
+}
+
+.ct2{
+    color : white;
+    margin-top: 20vh
+} 
+
+.ctp{
+    width : 95%;
+    font-size: 18px
+}
+
+.tvi{
+    width : 100%;
+    overflow: hidden;
+    margin-top: -2vh;
+    padding-bottom: 4vh;;
+        border-bottom : 1.5vh solid #222222;
+display: inline-block;
+}
+
+.tv{
+    width : 90%;
+    margin-left: 5%;
+}
+
+.ct{
+    margin-top: 4vh;
+}
+.rk{
+    width : 60%;
+/*    text-align: left;*/
+    border : 2px solid gray;
+    border-radius: 10px;
+/*    height : 5vh*/
+    margin-left: 20%;
+    margin-top: 34vh;
+    position: absolute;
+    background: black;
+    z-index: 10;
+/*    height : vh*/
+}
+
+.quest{
+    background: #303030;
+    height : 8vh;
+    font-size: 18px;
+    width : 100%;
+    color : white;
+    border : 0px;
+    text-align: left;
+    padding-left : 5%;
+    margin-top: 2%;
+    font-weight: lighter;
+}
+
+
+.quest::after{
+    content : "";
+        position :absolute;
+    right : 0;
+    margin-right : 5%;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-top: -2%;
+}
+.cth1{
+    width : 90%;
+    font-size: 1.56rem;
+        font-size: 25px;
+
+}
+img{
+    z-index: 10;
+}
+.tvw{
+    z-index: 32;
+/*    position: abssolute;*/
+/*    margin-left: 30%*/
+    
+}
+.bk{
+    position: absolute;
+    margin-top: 4vh;
+/*    z-index: -1;*/
+    width: 55%;
+    outline : none;
+    right : 0;
+        margin-right: 21%;
+
+}
+
+.ctp{
+    width : 80%
+}
+@media screen and (max-width : 1100px){
+.tvi1{
+            border-bottom : 1.5vh solid #222222;
+    padding-bottom: 5vh;
+
+    }
+}
+@media screen and (min-width : 748px){
+    .cth1{
+    width : 90%;
+    font-size: 1.56rem;
+        font-size: 35px;
+
+}
+    .ctp{
+    width : 80%;
+                font-size: 22px;
+
+}
+    .rk{
+        margin-top: 85vh;
+        margin-left: 23%
+    }
+}
+@media screen and (min-width : 1100px){
+    .quest{
+/*        padding : 10vh;*/
+        font-size: 30px;
+        padding-bottom: 8vh;
+        padding-top: 3vh
+
+    }
+    .p2c{
+        margin-top: -65vh;
+        width : 50%;
+    }
+      .p1c{
+       font-size: 25px;
+    }
+    .p3c{
+       font-size: 25px;
+    }
+    .container{
+    width : 50%;
+    margin-left: 25%;
+       
+
+}
+    .c2{
+        margin-top: 35vh;
+    }
+    .cth1{
+        font-size: 50px;
+/*        position: absolute;*/
+        left : 0;
+    }
+    .hh1{
+        position: absolute;
+        left : 0;
+        width : fit-content;
+/*        background: red;*/
+        padding-left: 10%;
+        margin-top: 15vh;
+    }
+       .hp1{
+        position: absolute;
+        left : 0;
+        width : fit-content;
+/*        background: red;*/
+        padding-left: 10%;
+           margin-top: 25vh;
+           width : 40%;
+           text-align: left;
+    }
+        .hh2{
+        position: absolute;
+        text-align: left;
+        width : fit-content;
+/*        background: red;*/
+        padding-left: 10%;
+        margin-top: 12vh;
+            right : 0;
+            margin-left: 40%;
+    }
+    
+    
+       .hp2{
+        position: absolute;
+        right : 0;
+        width : fit-content;
+/*        background: red;*/
+        padding-right: 0%;
+           margin-top: 31vh;
+           width : 50%;
+           text-align: left;
+    }
+    
+    .rk{
+        width : 20%;
+        margin-left: 10.5%;
+        margin-top: 37vh;
+    }
+    .tvi1{
+       margin-right: 65%;
+        width : 40%;
+    }
+    .ct2{
+            border-bottom : 1.5vh solid #222222;
+
+    }
+    .mt{
+        margin-top: 20vh;
+    }
+    .mt1{
+        margin-top: 30vh;
+    }
+    .tvi{
+        border : 0px;
+    }
+    .nb{
+        font-size: 35px;
+        border-radius: 4px;
+         padding-left: 2%;
+        padding-right: 2%;
+    }
+    .ctp{
+        font-size: 28px
+    }
+    .tvi{
+        width : 50%;
+        overflow: hidden;
+        margin-left: 50%;
+    }
+.ic{
+    width : 100%;
+    height : 105vh;
+    overflow: hidden;
+}
+.ii{
+    width : 100%;
+    height : 105vh;
+    overflow: hidden;
+}  
+}
